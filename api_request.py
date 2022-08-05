@@ -82,5 +82,5 @@ bodyID = f'''<p class="auto-cursor-target">
 </p>
 ''' 
 
-spaceContent = confluence.update_page(contentID, titleID, bodyID, parent_id=None, type='page', representation='storage', minor_edit=False)
+spaceContent = confluence.update_page(contentID, titleID, bodyID)
 
